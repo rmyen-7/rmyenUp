@@ -80,13 +80,12 @@ def Connect():
 
 if __name__ == "__main__":
     screen_clear()
-    #Connect()
-    ids = input(f"{R}> {W}Enter Your Members Ids List: ")
-    with open(ids, "r") as f:
-        lines = f.readlines()
-    #send(lines)
+    Connect()
+    #ids = input(f"{R}> {W}Enter Your Members Ids List: ")
+    #with open(ids, "r") as f:
+        #lines = f.readlines()
     
-    for i in lines:
-        i = i.strip()
-        i = i.replace("\n", "")
-        makeMessage(i)
+    #for i in lines:
+        #i = i.strip()
+        #i = i.replace("\n", "")
+        #makeMessage(i)
