@@ -9,7 +9,7 @@ G = "\033[32m"  # Green
 W = "\033[0m"   # Reset to White/Default
 
 
-groupId = "8465974996"
+groupId = "-1001892250906"
 with open("Message.txt", "r", encoding="utf-8", errors="ignore") as f:
     msg = f.read()
 
